@@ -63,7 +63,7 @@ function dob()
        var hrdiff = parseInt(minutes/60);
        var monthdiff = getMonthdata(inputvalue, currentdate);
        var yearDiff = getYearDate( inputvalue, currentdate);
-       alert(` year difference is ${yearDiff}, month difference ${monthdiff} , hours difference ${hrdiff}, minutes difference ${minutes}, seconds difference ${seconds} ` );
+       alert(` year difference is ${yearDiff}, month difference is ${monthdiff} , hours difference is ${hrdiff}, minutes difference is ${minutes}, seconds difference is ${seconds} ` );
     }
 
     function getYearDate(param1, param2)
